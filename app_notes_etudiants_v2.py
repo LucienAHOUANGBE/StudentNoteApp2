@@ -289,7 +289,7 @@ if matieres_data:
     with col1:
         student_id = st.text_input(
             "🆔 Votre identifiant étudiant",
-            placeholder="Ex: AKCHDJO",
+            placeholder="Ex: AHOUVIG",
             help="Entrez votre identifiant tel qu'il apparaît dans le système (4 premières lettres de votre nom de famille et 3 premières lettres de votre prénom, sans accent ni caractère spécial)"
         ).strip().upper()
     
