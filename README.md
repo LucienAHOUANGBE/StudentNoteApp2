@@ -105,7 +105,7 @@ Partager le Google Sheet avec l’email du service account
 
 Le bonus global est ajouté après le calcul de la note de base.
 
-La note finale est plafonnée à 20.
+La note finale est plafonnée à 20. Mais une mise à jour a été apportée pour accepter des notes au-delà de 20.
 
 Les colonnes vides ou non renseignées sont ignorées automatiquement.
 

@@ -357,6 +357,9 @@ if matieres_data:
                 # Calculer la note sur 20 (basée sur le pourcentage de réussite)
                 # Note = (points_obtenus / total_bareme) × 20
                 note_sur_20_base = (total_points_obtenus / total_bareme * 20) if total_bareme > 0 else 0
+
+                # Ajustement de la note sur 20 si le total des baremes est supérieure à 20 (Exple le cas de la recherche operation)
+                note_sur_20_base = total_points_obtenus if total_bareme > 20 else 0
                 
                 # Ajouter le bonus à la note finale
                 note_sur_20_finale = note_sur_20_base + bonus_total
